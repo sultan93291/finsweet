@@ -8,6 +8,7 @@ module.exports = {
         text_color: "rgba(255, 255, 255, 1)",
         overlay: "rgba(196, 196, 196, 0)",
         btn_color: "#FFD2A4",
+        unique_txt: "#DC9853",
       },
       maxWidth: {
         container: "1280px",
