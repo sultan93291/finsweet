@@ -16,10 +16,13 @@
 <body class="font-robot">
   <!-- ==== navbar started here ====  -->
   <nav class="h-[80px] bg-black relative items-center ">
-    <div class=" max-w-container  relative mx-auto items-center h-auto flex">
-      <img src="./images/logo.png" class="bg-cover overflow-hidden h-[32px] w-[134px]" alt=" finset logo">
+    <div
+      class=" max-w-container  relative mx-auto items-center h-auto flex justify-between xl:justify-normal px-[25px] xxl:px-0">
+      <img src="./images/logo.png" class="bg-cover overflow-hidden h-[32px] w-[134px] my-[20px] xl:my-0 "
+        alt=" finset logo">
+      <i class="fa-solid xl:hidden text-white text-[20px] fa-bars"></i>
       <ul
-        class="flex ml-[128px] text-text_color font-robot text-[16px] font-[400] uppercase gap-x-[48px] opacity-[0.9] relative before:absolute before:h-[80px] before:w-[2px] before:left-0 before:bg-white before:top-0 before:ml-[-64px] before:mt-[-29.5px] before:opacity-[0.1] ">
+        class=" hidden xl:flex ml-[128px] text-text_color font-robot text-[16px] font-[400] uppercase gap-x-[48px] opacity-[0.9] relative before:absolute before:h-[80px] before:w-[2px] before:left-0 before:bg-white before:top-0 before:ml-[-64px] before:mt-[-29.5px] before:opacity-[0.1] ">
         <li
           class=" relative after:absolute after:h-[5px] after:w-[80%] after:bg-btn_color after:left-0 after:bottom-0  after:ml-[3px] after:mb-[-10px] after:rounded-md after:opacity-0 hover:after:opacity-100 transition duration-300 ">
           <a href="#">Home</a>
@@ -38,7 +41,7 @@
         </li>
       </ul>
       <a href="#"
-        class=" w-[180px] h-[56px] bg-btn_color  ml-[465px] rounded-[12px] text-[#1C1D28] text-[16px] font-[400] leading-[16px] flex border-2 border-transparent relative items-center justify-center my-[12px] uppercase hover:text-btn_color hover:bg-transparent  hover:border-solid hover:border-btn_color transition-all duration-300 ">
+        class=" w-[180px] h-[56px] hidden xl:ml-[320px]   xl:flex bg-btn_color  xxl:ml-[465px] rounded-[12px] text-[#1C1D28] text-[16px] font-[400] leading-[16px]  border-2 border-transparent relative items-center justify-center my-[12px] uppercase hover:text-btn_color hover:bg-transparent  hover:border-solid hover:border-btn_color transition-all duration-300 ">
         contact us
       </a>
     </div>
@@ -46,33 +49,34 @@
   </nav>
   <!-- ==== navbar ended  here ==== -->
   <!-- ==== banner started here ====  -->
-  <section class="h-[750px] bg-cover overflow-hidden bg-no-repeat  w-auto "
+  <section class="h-[750px] bg-center bg-cover overflow-hidden bg-no-repeat  w-auto "
     style="background: url(./images/banner.jpg);">
-    <div class="max-w-container mx-auto  flex flex-col pt-[128px] ">
+    <div class="max-w-container mx-auto px-[20px] xxl:px-0  flex flex-col pt-[128px] ">
       <p class="text-text_color text-[16px] font-[700] uppercase ml-[16px] ">Welcome to our CHURCH</p>
       <h2
-        class="text-[64px] font-[700] leading-[82px] uppercase  w-[602px] tracking-[-0.64] mt-[16px] ml-[16px] text-text_color ">
+        class=" lg:text-[64px] text-[46px] font-[700] leading-[82px] uppercase w-auto  lg:w-[602px] tracking-[-0.64] mt-[16px] ml-[16px] text-text_color ">
         Become a part of our community</h2>
       <a href="#"
         class=" w-[214px] h-[64px] bg-btn_color  rounded-[12px] text-[#1C1D28] text-[16px] font-[400] leading-[16px] flex border-2 border-transparent relative items-center justify-center mt-[32px] uppercase hover:text-btn_color hover:bg-transparent  hover:border-solid hover:border-btn_color transition-all duration-300 ">
         learn more
       </a>
       <p
-        class="text-[16px] text-text_color font-[400] leading-[24px] w-[308px] ml-[46px] mt-[64px] relative before:absolute before:w-[18px] before:h-[2px] before:bg-btn_color before:ml-[-46px] before:mt-[10px] ">
+        class="text-[16px] text-text_color font-[400] leading-[24px] w-auto xl:w-[308px] ml-[46px] mt-[64px] relative before:absolute before:w-[18px] before:h-[2px] before:bg-btn_color before:ml-[-46px] before:mt-[10px] ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
     </div>
   </section>
   <!-- ==== banner ended  here ==== -->
   <!-- ==== relevant started here ====  -->
-  <section class="w-auto h-[543px] my-[128px]">
+  <section class="w-auto h-auto] my-[128px]">
     <div class="max-w-container mx-auto flex flex-col ">
       <p class=" text-center text-[#161722] text-[16px] font-[400] uppercase mx-auto ">sub-headline</p>
-      <h2 class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase mx-auto mt-[16px] ">
+      <h2
+        class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase mx-auto mt-[16px] text-center md:text-left ">
         a church that's relevant
       </h2>
-      <div class=" flex flex-row gap-[24px] mt-[64px]">
+      <div class=" flex flex-col mx-auto  xxl:mx-0 xl:flex-row gap-[24px] mt-[64px]">
         <div
-          class="w-[411px] h-[364px] bg-[#FFF5EB] border-b-[16px] border-btn_color flex flex-col pt-[80px] pl-[80px]">
+          class=" w-auto  xxl:w-[411px] h-[364px] bg-[#FFF5EB] border-b-[16px] border-btn_color flex flex-col pt-[80px] pl-[80px]">
           <img src="./images/cross.png" class="h-[48px] w-[48px] overflow-hidden" alt="cross icons">
           <h4 class="text-[32px] font-[700] leading-[44px] tracking-[-0.32px] mt-[24px] uppercase">About us</h4>
           <p class="text-[16px] font-[400] mt-[8px] leading-[24px] w-[251px]"> Lorem ipsum dolor sit amet, consectetur
@@ -81,7 +85,7 @@
             aliqua.</p>
         </div>
         <div
-          class="w-[411px] h-[364px] bg-[#FFF5EB] border-b-[16px] border-btn_color flex flex-col pt-[80px] pl-[80px]">
+          class="w-auto xxl:w-[411px] h-[364px] bg-[#FFF5EB] border-b-[16px] border-btn_color flex flex-col pt-[80px] pl-[80px]">
           <img src="./images/involved.png" class="h-[48px] w-[48px] overflow-hidden" alt="involved icons">
           <h4 class="text-[32px] font-[700] leading-[44px] tracking-[-0.32px] mt-[24px] uppercase">Get involved</h4>
           <p class="text-[16px] font-[400] mt-[8px] leading-[24px] w-[251px]"> Lorem ipsum dolor sit amet, consectetur
@@ -90,7 +94,7 @@
             aliqua.</p>
         </div>
         <div
-          class="w-[411px] h-[364px] bg-[#FFF5EB] border-b-[16px] border-btn_color flex flex-col pt-[80px] pl-[80px]">
+          class=" w-auto xxl:w-[411px] h-[364px] bg-[#FFF5EB] border-b-[16px] border-btn_color flex flex-col pt-[80px] pl-[80px]">
           <img src="./images/heart.png" class="h-[48px] w-[48px] overflow-hidden" alt="heart icons">
           <h4 class="text-[32px] font-[700] leading-[44px] tracking-[-0.32px] mt-[24px] uppercase">Giving back</h4>
           <p class="text-[16px] mt-[8px] font-[400] leading-[24px] w-[251px]"> Lorem ipsum dolor sit amet, consectetur
@@ -104,13 +108,14 @@
   <!-- ==== relevant ended  here ==== -->
   <!-- ==== compassion started here ====  -->
   <section class="w-auto h-auto mb-[128px]">
-    <div class=" max-w-container mx-auto flex flex-col ">
+    <div class=" max-w-container mx-auto flex flex-col  ">
       <p class=" text-center text-[#161722] text-[16px] font-[400] uppercase mx-auto ">sub-headline</p>
-      <h2 class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase mx-auto mt-[16px] ">
+      <h2
+        class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase text-center md:text-left mx-auto mt-[16px] ">
         love and compassion
       </h2>
       <span
-        class="w-[956px] h-[72px] text-center mx-auto text-[16px] font-[400] leading-[24px] mt-[32px] opacity-[0.78] ">
+        class=" w-auto  xl:w-[956px] px-[20px] lg:px-0 text-left xl:h-[72px] md:text-center mx-auto text-[16px] font-[400] leading-[24px] mt-[32px] opacity-[0.78] ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -121,7 +126,7 @@
         class=" w-[205px] h-[64px] bg-btn_color  rounded-[12px] text-[#1C1D28] text-[16px] font-[400] leading-[16px] flex border-2 border-transparent relative items-center justify-center mt-[32px] uppercase hover:text-btn_color hover:bg-transparent  hover:border-solid hover:border-btn_color transition-all duration-300 mx-auto ">
         read more
       </a>
-      <div class="flex flex-row gap-[24px] mx-auto ">
+      <div class="flex flex-col mt-[20px] lg:mt-0 lg:flex-row gap-[24px] items-center px-[5px] xl:px-0 mx-auto ">
         <img src="./images/beard_man.jpg" class="w-[293px] h-[384px] overflow-hidden rounded-[30px] " alt="beard_man">
         <img src="./images/holly.png" class="w-[390px] h-[512px]  overflow-hidden rounded-[30px] mt-[48px]"
           alt="holly man woman">
@@ -133,7 +138,8 @@
         <h5 class="text-[32px] font-[700] leading-[44px] tracking-[-0.32] uppercase mx-auto">
           celebrate WITH US
         </h5>
-        <span class="text-center text-[16px] font-[400] leading-[24px] w-[582px] opacity-[0.78]">
+        <span
+          class="text-center text-[16px] font-[400] leading-[24px] w-auto px-[10px] lg:px-0 lg:w-[582px] opacity-[0.78]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna
           aliqua.
@@ -150,10 +156,11 @@
   <section class="w-auto h-auto bg-[#F5F2F0] py-[128px] mb-[128px]">
     <div class="max-w-container mx-auto  relative items-center flex flex-col">
       <p class=" text-center text-[#161722] text-[16px] font-[400] uppercase mx-auto ">Watch and listen</p>
-      <h2 class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase  mt-[16px] w-[522px] text-center ">
+      <h2
+        class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase  mt-[16px] w-auto lg:w-[522px] text-center ">
         THE benefits of joining our church
       </h2>
-      <div class="flex flex-row gap-[24px] flex-wrap mt-[64px]">
+      <div class="flex flex-row  relative items-center mx-auto  gap-[24px] flex-wrap mt-[64px] justify-evenly">
         <div class="w-[302px] h-[384px] relative group bg-cover overflow-hidden"
           style="background: url(./images/nun.png);">
           <div
@@ -202,11 +209,13 @@
   <section class=" w-auto h-auto mb-[128px]">
     <div class="max-w-container mx-auto  relative items-center flex flex-col">
       <p class=" text-center text-[#161722] text-[16px] font-[400] uppercase mx-auto ">Upcoming SERMONS</p>
-      <h2 class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase  mt-[16px] w-[654px] text-center ">
+      <h2
+        class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase  mt-[16px] w-auto lg:w-[654px] text-center ">
         join us and become part of something great
       </h2>
-      <div class=" flex flex-row mt-[64px] ">
-        <div class="w-[435px] flex pt-[32px] pl-[89px] flex-row h-[512px] bg-[#FFF5EB]  justify-between pr-[32px]">
+      <div class=" flex flex-col px-[10px] xl:px-0 gap-y-[10px] xl:gap-y-0 xl:flex-row mt-[64px]  ">
+        <div
+          class=" w-[350px] md:w-auto  xl:w-[435px] flex pt-[32px] pl-[15px] md:pl-[89px] flex-row h-[512px] bg-[#FFF5EB]   justify-between pr-[32px]">
           <div class=" flex flex-col my-[40px]  ">
             <p class="text-[12px] font-[700] uppercase text-unique_txt tracking-[0.96]">Upcoming Event</p>
             <h5 class="text-[#161722] text-[24px] font-[700] tracking-[-0.24] uppercase w-[250px] mt-[16px]">
@@ -252,13 +261,15 @@
   <!-- ==== sermons ended  here ==== -->
   <!-- ==== chruch started here ====  -->
   <section
-    class="h-[846px] w-[1920px] my-[128px] mt-[256px] bg-cover overflow-hidden bg-center bg-no-repeat bg-[url('./images/chruchs.jpg')] relative after:absolute after:h-full after:w-full after:bg-[#ffae0017] after:z-0 after:top-0 after:left-0">
+    class=" h-auto md:h-[846px] w-auto my-[128px] mt-[256px] bg-cover overflow-hidden bg-center bg-no-repeat bg-[url('./images/chruchs.jpg')] relative after:absolute after:h-full after:w-full after:bg-[#ffae0017] after:z-0 after:top-0 after:left-0 px-[10px] xl:px-0 ">
     <div
-      class="w-[768px] h-auto border-b-[16px] border-btn_color px-[48px] flex flex-row relative my-[128px] mx-auto bg-white z-10 justify-between">
+      class=" w-auto xl:w-[768px] h-auto border-b-[16px] border-btn_color px-[48px] flex flex-col-reverse md:flex-row relative my-[128px] mx-auto bg-white z-10 justify-evenly md:justify-between">
       <div class="my-[72px] flex flex-col gap-y-[16px]">
-        <h2 class="text-[#161722] font-[700] leading-[64px] tracking-[-0.48] text-[48px] w-[458px] uppercase ">We want
+        <h2
+          class="text-[#161722] font-[700] leading-[64px] tracking-[-0.48] text-[38px] md:text-[48px] w-auto md:w-[458px] uppercase ">
+          We want
           to serve the world around us</h2>
-        <p class="text-[16px] font-[400] text-[#161722] w-[302px] opacity-[0.78]">
+        <p class="text-[16px] font-[400] text-[#161722] w-auto md:w-[302px] opacity-[0.78]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
         </p>
         <a href="#"
@@ -276,10 +287,11 @@
     <div class=" max-w-container   mx-auto flex flex-col relative ">
       <p class=" text-center text-[#161722] text-[16px] font-[400] uppercase mx-auto ">Read our Blog</p>
       <h2
-        class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase mx-auto  mt-[16px] w-[650px] text-center ">
+        class="text-[48px] font-[700] leading-[72px] tracking-[-0.48px] uppercase mx-auto  mt-[16px] w-auto lg:w-[650px] text-center ">
         SHARE, INSPIRE, INNOVATE
       </h2>
-      <div class=" flex flex-row gap-[24px] ">
+      <div
+        class=" flex flex-col relative mx-auto xl:flex-row flex-wrap gap-x-[24px] gap-y-[10px] justify-evenly xxl:justify-normal ">
         <div class=" flex flex-row">
           <div
             class="h-auto mb-[32px] w-[302px] bg-[#FFF5EB] border-b-[16px] border-btn_color pt-[48px] pl-[32px] mt-[64px]">
@@ -374,7 +386,7 @@
   <!-- ==== relationship section ended  here ==== -->
   <!-- ==== footer started here ====  -->
   <footer class="h-auto w-auto pt-[64px] pb-[76px] bg-black ">
-    <div class=" max-w-container flex flex-row  h-auto mx-auto ">
+    <div class=" max-w-container flex flex-col med:flex-row px-[20px]  h-auto mx-auto ">
       <div class=" flex flex-col gap-y-[16px] ">
         <img src="./images/footerLogo.png" class="w-[167px] h-[40px]" alt="finset logo">
         <p class="text-[12px] w-[200px] font-[400] uppercase text-white"> © Copyright Finsweet 2022</p>
@@ -384,7 +396,7 @@
           <li> finsweet@example.com </li>
         </ul>
       </div>
-      <div class="flex flex-col ml-[260px]">
+      <div class="flex flex-col mt-[20px] med:mt-0 med:ml-[260px]">
         <span class="text-[16px] font-[600] text-white leading-[24px]">Quicklinks</span>
         <ul class="flex flex-col opacity-[0.78] uppercase mt-[20px] text-white text-[12px] font-[400] gap-y-[24px]">
           <li>About us</li>
@@ -393,7 +405,7 @@
           <li>Blog</li>
         </ul>
       </div>
-      <div class="flex flex-col ml-[72px]">
+      <div class="flex flex-col mt-[20px] med:mt-0 med:ml-[72px]">
         <span class="text-[16px] font-[600] text-white leading-[24px]">Connect</span>
         <div class=" flex  gap-x-[20px] mt-[20px] flex-row">
           <i class="fa-brands text-btn_color hover:text-white transition-all duration-300 fa-facebook"></i>
@@ -401,14 +413,14 @@
           <i class="fa-brands text-btn_color hover:text-white transition-all duration-300 fa-linkedin"></i>
         </div>
       </div>
-      <div class=" flex flex-col ml-[115px]">
+      <div class=" flex flex-col mt-[20px] med:mt-0 med:ml-[115px]">
         <h4 class="text-[32px] font-[700] uppercase leading-[44px] tracking-[-0.32] text-white">Subscribe to get Latest
           Updates and News</h4>
-        <form action="" class=" mt-[32px] flex relative flex-row h-[64px] w-[512px] ">
+        <form action="" class=" mt-[32px] flex relative flex-row h-[64px] lg:w-[512px] ">
           <input placeholder="Yourmail@gmail.com" type="text"
             class=" rounded-[12px] border-[1px] text-[#fff] pl-[20px] pr-[215px] text-[16px] font-[400] leading-[24px] border-solid border-[rgba(255, 255, 255, 0.15)] outline-none bg-black w-[100%] opacity-[0.78]">
           <button
-            class=" w-[201px]  h-[64px] right-0 bg-btn_color  rounded-[12px] text-[#1C1D28] text-[16px] font-[400] leading-[16px] flex border-2 border-transparent  items-center justify-center  uppercase hover:text-btn_color hover:bg-transparent  hover:border-solid hover:border-btn_color transition-all duration-300 absolute ">
+            class=" md:w-[201px] w-[120px]  h-[64px] right-0 bg-btn_color  rounded-[12px] text-[#1C1D28] text-[12px] xl:text-[16px] font-[400] leading-[16px] flex border-2 border-transparent  items-center justify-center  uppercase hover:text-btn_color hover:bg-transparent  hover:border-solid hover:border-btn_color transition-all duration-300 absolute ">
             Subscribe
           </button>
         </form>
